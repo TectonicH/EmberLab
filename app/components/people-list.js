@@ -4,6 +4,6 @@ import { action } from '@ember/object';
 export default class PeopleListComponent extends Component {
   @action
   showPerson(person) {
-    alert(`The person's name is ${person}!`);
+    alert(`The gamer's name is ${person}!`);
   }
 }
